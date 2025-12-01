@@ -10,7 +10,7 @@ import objects.Note;
 class FunkinHitbox extends OGHitbox {
 	public function new(?mode:String, ?globalAlpha:Float = 0.7):Void
 	{
-		super(mode, globalAlpha, true); //true means basically-mobilecontrols's hitbox creation is disabled
+		super(mode, globalAlpha, true); //true means library's hitbox creation is disabled
 		if ((ClientPrefs.data.hitboxmode == 'V Slice' && mode == null) || mode == 'V Slice')
 		{
 			var mania = Note.maniaKeys;

@@ -29,5 +29,5 @@ Once this is done, go to your Project File, whether that be a build.hxml for Hax
 
 ```xml
 <haxelib name="mobile-controls"/>
-'<haxedef name="mobile_controls_file_support"/>
+<haxedef name="mobile_controls_file_support"/>
 ```
